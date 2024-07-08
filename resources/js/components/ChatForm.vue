@@ -4,7 +4,6 @@
             {{ message }}
         </div>
     </div>
-
     <div class="relative flex">
         <input v-model="form.message" type="text"
                placeholder="Сообщение"

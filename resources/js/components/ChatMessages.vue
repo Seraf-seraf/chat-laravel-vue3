@@ -1,5 +1,6 @@
 <template>
     <div class="chat-message" v-for="message in messages">
+        <div class="burger">Кнопка</div>
         <div class="flex items-end" :class="{'justify-end': message.user.id != user.id}">
             <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2" :class="{'items-end': message.user.id != user.id, 'items-start': message.user.id == user.id}">
                 <div>

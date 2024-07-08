@@ -4,6 +4,11 @@
     <div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen">
         <div class="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
             <div class="flex items-center space-x-4">
+            <div class="space-y-1.5 rounded bg-gray-600 ml-2 p-2 shadow">
+               <span class="block h-0.5 w-6 animate-pulse bg-gray-100"></span>
+               <span class="block h-0.5 w-6 animate-pulse bg-gray-100"></span>
+               <span class="block h-0.5 w-6 animate-pulse bg-gray-100"></span>
+            </div>
                 <div class="flex flex-col leading-tight">
                     <div class="text-2xl mt-1 flex items-center">
 {{--                        <span class="text-gray-700 mr-3">{{ //auth()->user()->name; }}</span>--}}
